@@ -1,0 +1,94 @@
+/*#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+.App{
+background-color: beige;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 100vh;
+}
+
+.App{
+   content: '';
+   background: url('./assets/pexels-photo-258136.jpeg') no-repeat center center/cover;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   z-index: -1;
+}
+
+.container{
+  width: 30%;
+  background: rgba(245, 245, 220, 0.329);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 50px;
+
+}
+
+.container h1{
+  color: rgb(50, 137, 167);
+  margin-bottom: 1rem;
+}
+.container h3{
+  color: rgb(14, 97, 93);
+}
+
+img{
+  display: block;
+  width: 85%;
+}
+
+.container span{
+  color: white;
+}
+
+
+
+#containerd{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+
+#containerd > div{
+  width: 50%;
+}
+
+.details h3{
+margin-bottom: 1rem;
+} 
+
+.degrees{
+  text-align: left;
+}
+
+.App h2{
+  color: rgb(15, 89, 114);
+  margin-bottom: 1rem;
+  text-align: left;
+
+}
+
+.App button{
+  padding: 6px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(37, 150, 150);
+  font-size: 25px;
+  color: beige;
+}
